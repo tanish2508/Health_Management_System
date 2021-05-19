@@ -77,8 +77,8 @@ print("health management system: ")
 a=int(input("press 1 for lock the value and 2 for retrieve "))
 
 if a==1:
-    b = int(input("press 1 for tanish 2 for mayank 3 for shivam "))
+    b = int(input("press 1 for tanish, 2 for mayank, 3 for shivam "))
     take(b)
 else:
-    b = int(input("press 1 for tanish 2 for mayank 3 for shivam "))
+    b = int(input("press 1 for tanish, 2 for mayank, 3 for shivam "))
     retrieve(b)
